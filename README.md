@@ -15,24 +15,24 @@
 - /messages/{id} - (задание @Vadim Bevziuk - не реализовано в этом проекте, когда закончит будет а общем проекте)
 
 ## To login
-login: steven password: 1
-login: sara   password: 2
-login: alex   password: 3
-login: vlad   password: 4
-login: ketty  password: 5
-login: merry  password: 6
-login: max    password: 7
-login: brad   password: 8
-login: gaga   password: 9
+- login: steven password: 1
+- login: sara   password: 2
+- login: alex   password: 3
+- login: vlad   password: 4
+- login: ketty  password: 5
+- login: merry  password: 6
+- login: max    password: 7
+- login: brad   password: 8
+- login: gaga   password: 9
 
 ## Database Credentials
-Host ec2-44-206-89-185.compute-1.amazonaws.com
-Database d510kv5rqp7kj4
-User exngnvawvnrjtl
-Port 5432
-Password d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba
-URI postgres://exngnvawvnrjtl:d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba@ec2-44-206-89-185.compute-1.amazonaws.com:5432/d510kv5rqp7kj4
-Heroku CLI heroku pg:psql postgresql-pointy-26545 --app web-step-project-tinder
+- Host:  ec2-44-206-89-185.compute-1.amazonaws.com
+- Database:  d510kv5rqp7kj4
+- User:  exngnvawvnrjtl
+- Port:  5432
+- Password:  d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba
+- URI:  postgres://exngnvawvnrjtl:d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba@ec2-44-206-89-185.compute-1.amazonaws.com:5432/d510kv5rqp7kj4
+- Heroku CLI:  heroku pg:psql postgresql-pointy-26545 --app web-step-project-tinder
 
 ## Предлагаемый порядок выполнения задач:
 1. Создать новое приложение
