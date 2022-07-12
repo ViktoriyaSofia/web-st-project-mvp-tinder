@@ -63,7 +63,7 @@ public class UserJdbcDao implements UserDao{
       PreparedStatement preparedStatement = connection.prepareStatement(
           "SELECT user_id, login, password, is_online, name, age, about_self, picture_src, " +
               "AGE(CURRENT_TIMESTAMP(0), log_out_date) as last_online FROM users.users WHERE user_id=?");
-      preparedStatement.setString(1,  String.valueOf(userId));
+      preparedStatement.setLong(1,  Long.valueOf(userId));
 
       ResultSet resultSet = preparedStatement.executeQuery();
 
