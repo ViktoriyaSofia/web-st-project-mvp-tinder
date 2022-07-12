@@ -7,12 +7,32 @@
 На данном проекте все студенты разделены на группы по три человека. Участники команды могут самостоятельно распределить между собой задачи.
 
 ## Список рабочих эндпоинтов в полностью готовом приложении:
-- /login - реаизован
-- /profiles - реаизован, таблица в БД users
-- /liked - шаблон страницы, таблица в БД users 
-- /create - реализован (по собстванному желанию))
-- /messages/{id}
+- /login - реализован (by @Viktoriya Voykshnaras)
+- /profiles - реализован, таблица users в БД users, (by @Viktoriya Voykshnaras)
+- /liked - шаблон страницы, шаблон таблицы likes в БД users (задание @Max Bilyk - не реализовано в этом проекте, когда закончит будет а общем проекте)
+- /create - реализован (по собстванной инициативе), 
+            user добавляется в таблицу users в БД users и перенаправляется на login (by @Viktoriya Voykshnaras)
+- /messages/{id} - (задание @Vadim Bevziuk - не реализовано в этом проекте, когда закончит будет а общем проекте)
 
+## To login
+login: steven password: 1
+login: sara   password: 2
+login: alex   password: 3
+login: vlad   password: 4
+login: ketty  password: 5
+login: merry  password: 6
+login: max    password: 7
+login: brad   password: 8
+login: gaga   password: 9
+
+## Database Credentials
+Host ec2-44-206-89-185.compute-1.amazonaws.com
+Database d510kv5rqp7kj4
+User exngnvawvnrjtl
+Port 5432
+Password d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba
+URI postgres://exngnvawvnrjtl:d4b260ee769bcaf553983c3decac5c8f6b406cd7dcf5d75a369d0372e5b6d0ba@ec2-44-206-89-185.compute-1.amazonaws.com:5432/d510kv5rqp7kj4
+Heroku CLI heroku pg:psql postgresql-pointy-26545 --app web-step-project-tinder
 
 ## Предлагаемый порядок выполнения задач:
 1. Создать новое приложение
